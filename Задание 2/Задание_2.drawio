@@ -1,0 +1,222 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="pN9pBew2AJzwr_2dkdCi">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SBAZUrmmooJxdQSvESe--1" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;labelPosition=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Начало&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="40" x="386" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--2" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=light-dark(#000000,#33FFFF);" value="&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); font-size: 8px;&quot;&gt;Заполнение пользователем обязательных и необязательных (по желанию) текстовых полей формы&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="306" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--3" parent="1" style="whiteSpace=wrap;html=1;align=left;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;" value="&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- пользователь-&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;продавец&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- система&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="56" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--4" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;strokeColor=light-dark(#000000,#66FFFF);" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="66" y="20" as="sourcePoint" />
+            <mxPoint x="146" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--5" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#66FFFF);" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="66" y="30.400000000000006" as="sourcePoint" />
+            <mxPoint x="146" y="30.400000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--6" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;strokeColor=light-dark(#000000,#FFFF66);" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="66" y="63.000000000000014" as="sourcePoint" />
+            <mxPoint x="146" y="63.000000000000014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--7" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#FFFF66);" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="66" y="73.40000000000002" as="sourcePoint" />
+            <mxPoint x="146" y="73.40000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--8" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--1" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#66FFFF);entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="SBAZUrmmooJxdQSvESe--2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="420" y="40" as="sourcePoint" />
+            <mxPoint x="420" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--9" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=light-dark(#000000,#33FFFF);" value="&lt;font style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Загрузка пользователем фото/видео-обзора товара&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="306" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--10" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--2" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#66FFFF);exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="306" y="180" as="sourcePoint" />
+            <mxPoint x="386" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--12" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--13" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=1;dashPattern=1 4;endArrow=none;startArrow=blockThin;rounded=0;strokeColor=light-dark(#000000,#FFFF66);exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" target="SBAZUrmmooJxdQSvESe--31" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="132" y="200" as="sourcePoint" />
+            <mxPoint x="292" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--13" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;aspect=fixed;strokeColor=light-dark(#000000,#FFFF66);" value="&lt;font style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Уведомление системой пользователя о недопустимом формате данных; предоставление списка допустимых форматов&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="56" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--14" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=user;aspect=fixed;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;strokeColor=light-dark(#000000,#33FFFF);" value="&lt;font style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Подтверждение пользователем сохранения введенных данных&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="300" y="407" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--16" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--13" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#66FFFF);exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--9" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="156" y="160" />
+            </Array>
+            <mxPoint x="176" y="190" as="sourcePoint" />
+            <mxPoint x="256" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font&gt;Нет&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="60" x="246" y="196" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--20" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;aspect=fixed;strokeColor=light-dark(#000000,#FFFF66);" value="&lt;font style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Проверка системой введенных данных на уникальность и соответствие ограничениям полей формы&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="304" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--26" parent="SBAZUrmmooJxdQSvESe--20" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=error;strokeColor=light-dark(#000000,#FFFFFF);" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="181" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--21" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--31" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#FFFF66);entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="SBAZUrmmooJxdQSvESe--20" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="416" y="326" as="sourcePoint" />
+            <mxPoint x="466" y="316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--23" parent="1" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillStyle=zigzag-line;fillColor=light-dark(#000000,#9933FF);" value="База данных" vertex="1">
+          <mxGeometry height="100" width="100" x="56" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--24" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--20" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;strokeColor=light-dark(#000000,#FFFF66);exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.3;entryDx=0;entryDy=0;" target="SBAZUrmmooJxdQSvESe--23" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="256" y="270" />
+            </Array>
+            <mxPoint x="526" y="386" as="sourcePoint" />
+            <mxPoint x="606" y="386" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--25" connectable="0" parent="SBAZUrmmooJxdQSvESe--24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Чтение" vertex="1">
+          <mxGeometry relative="1" x="-0.3555" as="geometry">
+            <mxPoint x="19" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--27" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--26" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=1;startFill=0;dashPattern=1 4;endArrow=blockThin;startArrow=none;rounded=0;strokeColor=light-dark(#000000,#FFFF66);exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--28" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="526" y="284.66" as="sourcePoint" />
+            <mxPoint x="606" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--28" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;aspect=fixed;strokeColor=light-dark(#000000,#FFFF66);" value="&lt;font style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Обработка системой внутренней ошибки&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="579" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="Системный сбой" vertex="1">
+          <mxGeometry height="30" width="100" x="507" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--30" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--28" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#66FFFF);exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="679" y="100" />
+            </Array>
+            <mxPoint x="666" y="100" as="sourcePoint" />
+            <mxPoint x="426" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--31" parent="1" style="points=[[0.25,0.25,0],[0.5,0,0],[0.75,0.25,0],[1,0.5,0],[0.75,0.75,0],[0.5,1,0],[0.25,0.75,0],[0,0.5,0]];shape=mxgraph.bpmn.gateway2;html=1;verticalLabelPosition=middle;labelBackgroundColor=none;verticalAlign=middle;align=center;perimeter=rhombusPerimeter;outlineConnect=0;outline=none;symbol=none;labelPosition=center;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 5px;&quot;&gt;Пользователь выбрал допустимый&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 5px;&quot;&gt;формат файлов?&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="225" x="292" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--32" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--9" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#66FFFF);exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--31" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="336" y="180" as="sourcePoint" />
+            <mxPoint x="416" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Да" vertex="1">
+          <mxGeometry height="30" width="19" x="410" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--34" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;aspect=fixed;strokeColor=light-dark(#000000,#FFFF66);" value="&lt;font style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Отображение окна-предпросмотра карточки товара; запрос на подтверждение сохранения данных от пользователя&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="283" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--36" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--20" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#FFFF66);exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--34" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="630" y="320" as="sourcePoint" />
+            <mxPoint x="710" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--37" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--34" style="fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#66FFFF);exitX=0.486;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--14" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="440" y="510" as="sourcePoint" />
+            <mxPoint x="590" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--38" parent="1" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=service;aspect=fixed;strokeColor=light-dark(#000000,#FFFF66);" value="&lt;font style=&quot;font-size: 9px; background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;Добавление карточки товара в профиль пользователя в соответствии с введенными данными&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="240" x="279" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--42" parent="SBAZUrmmooJxdQSvESe--38" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=boundInt;symbol=error;strokeColor=light-dark(#000000,#FFFFFF);" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="214" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--39" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--14" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#FFFF66);exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--38" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="414" y="457" as="sourcePoint" />
+            <mxPoint x="413" y="477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--40" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--23" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=none;startArrow=none;rounded=0;strokeColor=light-dark(#000000,#FFFF66);entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.7;exitDx=0;exitDy=0;" target="SBAZUrmmooJxdQSvESe--38" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="420" />
+            </Array>
+            <mxPoint x="200" y="530" as="sourcePoint" />
+            <mxPoint x="280" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--41" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запись" vertex="1">
+          <mxGeometry x="212" y="320" as="geometry">
+            <mxPoint x="-22" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--43" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--42" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=1;startFill=0;dashPattern=1 4;endArrow=blockThin;startArrow=none;rounded=0;strokeColor=light-dark(#000000,#FFFF66);exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--28" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="629" y="350" />
+            </Array>
+            <mxPoint x="590" y="625" as="sourcePoint" />
+            <mxPoint x="651" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="Системный сбой" vertex="1">
+          <mxGeometry height="30" width="100" x="570" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ошибка базы данных" vertex="1">
+          <mxGeometry height="30" width="130" x="530" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--46" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--28" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#FFFF66);exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.008;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--20" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="679" y="220" />
+            </Array>
+            <mxPoint x="680" y="196" as="sourcePoint" />
+            <mxPoint x="760" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--48" parent="1" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=middle;labelBackgroundColor=#ffffff;verticalAlign=middle;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;labelPosition=center;" value="Конец" vertex="1">
+          <mxGeometry height="40" width="40" x="379" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="SBAZUrmmooJxdQSvESe--50" edge="1" parent="1" source="SBAZUrmmooJxdQSvESe--38" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeColor=light-dark(#000000,#FFFF66);exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="SBAZUrmmooJxdQSvESe--48" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="351" y="550" as="sourcePoint" />
+            <mxPoint x="350" y="573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eZGNcbT35GWCvcdaFtag-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;" value="Ошибка сервера" vertex="1">
+          <mxGeometry height="30" width="130" x="622" y="212" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
