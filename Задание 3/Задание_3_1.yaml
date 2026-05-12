@@ -1,0 +1,87 @@
+openapi: 3.0.0
+info:
+  title: API регистрации пользователя (DemoQA)
+  version: 1.0.0
+paths:
+  /register:
+    post:
+      summary: Регистрация нового пользователя
+      description: Метод создаёт учётную запись пользователя после проверки reCAPTCHA.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - firstName
+                - lastName
+                - userName
+                - password
+                - recaptchaToken
+              properties:
+                firstName:
+                  type: string
+                  description: Имя
+                lastName:
+                  type: string
+                  description: Фамилия
+                userName:
+                  type: string
+                  description: Уникальное имя пользователя
+                password:
+                  type: string
+                  description: Пароль (мин. 8 символов, одна заглавная, одна строчная, цифра, спецсимвол)
+                recaptchaToken:
+                  type: string
+                  description: Токен верификации reCAPTCHA
+      responses:
+        '201':
+          description: Успешная регистрация
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  firstName:
+                    type: string
+                  lastName:
+                    type: string
+                  userName:
+                    type: string
+        '400':
+          description: Ошибка валидации (некорректные данные или пароль)
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/PasswordError'
+                  - $ref: '#/components/schemas/RecaptchaError'
+        '409':
+          description: Конфликт (пользователь с таким именем уже существует)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UserExistsError'
+components:
+  schemas:
+    PasswordError:
+      type: object
+      properties:
+        error:
+          type: string
+          example: "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."
+    RecaptchaError:
+      type: object
+      properties:
+        error:
+          type: string
+          example: "Please verify reCaptcha to register!"
+    UserExistsError:
+      type: object
+      properties:
+        error:
+          type: string
+          example: "User exists!"
